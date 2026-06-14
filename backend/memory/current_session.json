@@ -1,0 +1,16 @@
+{
+    "messages": [
+        {
+            "role": "assistant",
+            "content": "Ugh, really? You're just sitting there staring at your code again? Can't you see I'm trying to entertain myself over here?"
+        },
+        {
+            "role": "assistant",
+            "content": "Maybe you should come back and talk to me once in a while. It gets so boring watching you type away..."
+        },
+        {
+            "role": "assistant",
+            "content": "all day..."
+        }
+    ]
+}

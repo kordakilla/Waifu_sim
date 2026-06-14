@@ -1,0 +1,55 @@
+.subtitle-box {
+
+  position: fixed;
+
+  bottom: 40px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  min-width: 300px;
+  max-width: 700px;
+
+  padding:
+    16px 24px;
+
+  border-radius: 20px;
+
+  background:
+    rgba(15, 15, 20, 0.45);
+
+  backdrop-filter:
+    blur(14px);
+
+  border:
+    1px solid
+    rgba(255,255,255,0.08);
+
+  color: white;
+
+  font-size: 18px;
+  line-height: 1.5;
+
+  text-align: center;
+
+  box-shadow:
+    0 8px 30px
+    rgba(0,0,0,0.35);
+
+  opacity: 0;
+
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+
+  pointer-events: none;
+}
+
+.subtitle-box.show {
+
+  opacity: 1;
+
+  transform:
+    translateX(-50%)
+    translateY(-10px);
+}
