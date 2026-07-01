@@ -10,9 +10,12 @@ A waifu simulation project integrating **GPT-SoVITS** (TTS), a Python backend, a
 - **Node.js** + **npm**
 - GPT-SoVITS installed separately (standalone TTS)
 - Ollama (for running local LLM)
+=======
+
 ---
 
 ## Installation & Setup
+
 
 ### 0. Install Ollama + Llama 3
 
@@ -21,6 +24,8 @@ A waifu simulation project integrating **GPT-SoVITS** (TTS), a Python backend, a
    ```bash
    ollama pull llama3:latest
    ```
+
+=======
 
 ### 1. GPT-SoVITS (Standalone TTS)
 
